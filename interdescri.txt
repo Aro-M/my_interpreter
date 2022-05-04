@@ -1,0 +1,78 @@
+                               Interpreter syntax
+
+Տիպեր  ֊֊»       itype == int 
+		  ftype == double 
+		  btype == bool 
+		  stype == string
+
+Պայման  ֊֊»  if   ==   mode
+
+                         mode  : արտահայտություն  պայման  արտահայտություն  :  {
+		
+		օրինակ՝ 
+		      	       mode ^ expression condition expression ^ `body;`
+
+Ցիկլ    ֊֊»   loop == while
+	
+		օրինակ՝
+		                vuy ^  արտահայտություն ^ ` body ;`
+Տպել ֊֊»    tpich == cout
+
+		օրինակ՝
+
+			     tpich ^^ անուն;
+
+
+Մաթեմատիկական գործողությունները     ( + , - , * , / , % )։
+
+string -ի հայտարարությունը՝          stype անուն  = < տող > ;
+stype name = < hello world >  ;
+
+Տիպերի համար՝
+
+			տիպերի համար սահմանվել է այսպիսի syntax
+			
+օրինակ՝ 
+հայտարարել տիպ,  հայտարարել փոփոխականի անուն, վերագրել արժեք․ 
+եթե տողը ավարտվում է, ապա պետք է վերջանա (;) կամ կարող ենք կատարել մաթեմատիկական գործողություններ օր՝
+
+itype number = 22;
+կամ
+itype sum = 22 + 33;   // ( + , - , * ,  / , % )
+btype value = true ;  //  (true , false  և  ցանկացած  լիտերալ արժեք )
+white space  ֊ ների հետ  կապված խնդիր չի առաջանում։
+			
+Ցանկացած տող եթե սինտաքսին չի համապատասխանում, ապա  կվերադարձնի Error:
+օր՝  
+		itype number = ; // error
+		ftype sum = 22    //  error
+	            btype value = tru ; // error
+		stype tox = < hello world ;  // error
+		ftypenum = 11; // error
+ 
+		itype       number       =      23   ;  //  ok
+		
+		itype number = 29; //  error  քանի որ նույն անունը եթե մեկ անգամ հայտարարվել է, ապա չենք կարող երկրորդ անգամ հայտարարել  (ցանկացած տիպի համար)։
+
+
+Տպել՝
+
+	tpich << արտ ; 
+	tpich փոխարինում է  cout – ին,  փոփոխականը 
+	պետք է լինի հայտարարված, եթե չկա  ապա  կունենանք error
+	
+	օր՝
+ 		itype num = 10 + 6 ;
+		dtype sum = 333;
+		btype val = true;
+		stype str = < hello > ;
+
+		tpich << num <<  // ok
+		կտպի   16 
+			
+   
+mode կամ  loop  մեջ լինելու է  բուլյան արժեքներ  ,եթե  true մարմնի գործողությունը կտպի  ,եթե false  չի տպի ;
+		
+
+
+		               

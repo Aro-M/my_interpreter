@@ -1,0 +1,15 @@
+itype  num  = 8;
+itype  alignas = 5;
+stype asa = <sdkx5> ;
+ftype ssa = 90;
+btype sd = 1;
+btype ssd = 1;
+tpich ^^  asa;
+loop ^ ssd ^ ` ^^  ssa ;` 
+mode  ^ sd ^   ` ^^ num ; `
+itype nu = 77 % 2 ;
+tpich ^^ nu;
+ftype sum = 41 + 4 ;
+tpich ^^  sum ;
+ftype sub = 41 - 4 ;
+tpich ^^  sub ;
